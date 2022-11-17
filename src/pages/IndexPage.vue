@@ -14,17 +14,23 @@
     </a>
     | <a href="https://github.com/imvenx/cssvg" target="_blank" rel="noopener noreferrer">Repo</a>
     | <a href="https://discord.gg/F8Wzc5SPjq" target="_blank" rel="noopener noreferrer">Discord</a>
+    | <a href="https://www.youtube.com/channel/UCh30W9QnXS-XZwNuk-twnyg" target="_blank"
+      rel="noopener noreferrer">Youtube</a>
     <hr>
 
 
     <b>Animations created and exported with this tool:</b>
     <ul class="imgCont">
-      <img decoding="async" loading="lazy" src="../assets/thumbup.svg" style="width:10em;">
-      <img decoding="async" loading="lazy" src="../assets/dragon.svg" style="width:15em;">
-      <img decoding="async" loading="lazy" src="../assets/bird.svg" style="width:19em;">
-      <img decoding="async" loading="lazy" src="../assets/weird.svg" style="width:15em;">
-      <img decoding="async" loading="lazy" src="../assets/face_wink.svg" style="width:10em;">
-      <img decoding="async" loading="lazy" src="../assets/moon.svg" style="width:10em;">
+      <!-- <object type="image/svg+xml" data="src/assets/bird.svg" width="250" height="200">
+      </object> -->
+
+      <img decoding="async" loading="lazy" src="../assets/mountain.svg">
+      <img decoding="async" loading="lazy" src="../assets/bird.svg">
+      <img decoding="async" loading="lazy" src="../assets/face_wink.svg">
+      <img decoding="async" loading="lazy" src="../assets/dragon.svg">
+      <img decoding="async" loading="lazy" src="../assets/thumbup.svg">
+      <img decoding="async" loading="lazy" src="../assets/weird.svg">
+      <img decoding="async" loading="lazy" src="../assets/moon.svg">
     </ul>
     <hr />
     <b>Inkscape recomended configuration:</b>
@@ -36,7 +42,7 @@
       <li>Preferences -> Input/Output -> Numeric precision: 8</li>
     </ul>
     <hr />
-    <b>Videos</b>
+    <!-- <b>Videos</b>
     <div id="videos-cont">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/O287AKWyLrY" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -45,7 +51,7 @@
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </div>
-    <hr>
+    <hr> -->
 
     <!-- <b>Windows version limitations:</b>
     <ul>
@@ -166,9 +172,14 @@ img {
 .imgCont {
   display: flex;
   flex-wrap: wrap;
-  align-content: stretch;
-  width: 100%;
-  margin: auto;
+  /* align-content: stretch; */
+  /* width: 100%; */
+  /* margin: auto; */
   padding: 0;
+  gap: 1%;
+}
+
+.imgCont * {
+  max-height: 9em;
 }
 </style>

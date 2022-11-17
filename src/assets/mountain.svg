@@ -1,0 +1,307 @@
+<svg width="323.03601mm" height="185.76401mm" viewBox="0 0 323.03601 185.76401" version="1.1" id="svg5" sodipodi:docname="mountain.svg" inkscape:version="1.2.1 (9c6d41e, 2022-07-14)" style="width: 100%; height: 100%;" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview id="namedview7" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" showgrid="false" inkscape:zoom="0.2236041" inkscape:cx="165.47103" inkscape:cy="503.12136" inkscape:current-layer="layer1"></sodipodi:namedview>
+  <defs id="defs2">
+    <filter inkscape:collect="always" style="color-interpolation-filters:sRGB" id="filter2144" x="-0.29433729" y="-0.29433729" width="1.5886746" height="1.5886746">
+      <feGaussianBlur inkscape:collect="always" stdDeviation="11.317924" id="feGaussianBlur2146"></feGaussianBlur>
+    </filter>
+    <filter inkscape:collect="always" style="color-interpolation-filters:sRGB" id="filter14598" x="-0.11920681" y="-0.10865436" width="1.2384136" height="1.2173087">
+      <feGaussianBlur inkscape:collect="always" stdDeviation="5.4638792" id="feGaussianBlur14600"></feGaussianBlur>
+    </filter>
+  </defs>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="matrix(1, 0, 0, 1, 52.1256, -47.2963)" style="transform: matrix(1, 0, 0, 1, 52.1256, -47.2963);">
+    <rect style="fill: rgb(24, 8, 25); fill-opacity: 1; stroke-width: 0.264583; height: 185.764px; width: 323.036px; x: -52.1256px; y: 47.2963px;" id="rect111" width="323.036" height="185.764" x="-52.1256px" y="47.2963px" inkscape:label="background"></rect>
+    <g id="g2159" transform="translate(313.89028,-98.513518)" inkscape:label="moon" style="transform: matrix(1, 0, 0, 1, 347.135, 8.64892);">
+      <circle style="fill:#650d9c;fill-opacity:1;stroke-width:0.32751;filter:url(#filter2144)" id="circle2142" cx="-101.86922" cy="126.56646" r="46.14267"></circle>
+      <circle style="fill: rgb(101, 13, 156); fill-opacity: 1; stroke-width: 0.32751;" id="path2056" cx="-101.86922" cy="126.56646" r="46.14267"></circle>
+    </g>
+    <path style="mix-blend-mode: normal; fill: rgb(151, 87, 181); fill-opacity: 0.049902; stroke-width: 0.264583; filter: url(&quot;#filter14598&quot;); d: path(&quot;M 67.9823 180.791 L 103.48 60.1027 L 129.502 144.106 L 142.49 87.3238 L 177.987 179.621 Z&quot;);" d="M 67.9823 180.791 L 103.48 60.1027 L 129.502 144.106 L 142.49 87.3238 L 177.987 179.621 Z" id="path14596"></path>
+    <path style="fill: rgb(0, 0, 0); fill-opacity: 1; stroke-width: 0.264583; d: path(&quot;M 73.274 189.257 L 108.771 68.5693 L 134.794 152.572 L 147.782 95.7904 L 183.279 188.087 Z&quot;);" d="M 73.274 189.257 L 108.771 68.5693 L 134.794 152.572 L 147.782 95.7904 L 183.279 188.087 Z" id="path13087" inkscape:label="mountain"></path>
+    <path style="fill: rgb(99, 58, 119); fill-opacity: 0.521058; stroke-width: 0.154995; d: path(&quot;M 73.274 189.257 L 16.2253 225.942 L 134.794 201.846 L 55.2362 216.6 L 183.279 189.659 Z&quot;);" d="M 73.274 189.257 L 41.1842 225.942 L 134.794 201.846 L 80.1951 216.6 L 183.279 189.659 Z" id="path22800" sodipodi:nodetypes="cccccc" inkscape:label="mountain_shadow"></path>
+  </g>
+
+<style>  
+    #rect111 { 
+        animation-name: myanimrect111;
+        animation-duration: 4s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+      
+    @keyframes myanimrect111 { 
+        0% {
+            fill:  rgb(35, 35, 35);
+            width: 323.036px;
+            height: 185.764px;
+            x: -52.1256px;
+            y: 47.2963px;
+        }
+        0.2% {
+            fill: #040404;
+            width: 323.036px;
+            height: 185.764px;
+            x: -52.1256px;
+            y: 47.2963px;
+        }
+        50.1% {
+            fill: #341036;
+            width: 323.036px;
+            height: 185.764px;
+            x: -52.1256px;
+            y: 47.2963px;
+        }
+        100% {
+            fill:  rgb(2, 2, 2);
+            width: 323.036px;
+            height: 185.764px;
+            x: -52.1256px;
+            y: 47.2963px;
+        }
+         
+    }
+     
+    #circle2142 { 
+        animation-name: myanimcircle2142;
+        animation-duration: 4s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+      
+    @keyframes myanimcircle2142 { 
+        0% {
+            fill: #650d9c;
+            stroke-width: 0.32751;
+        }
+        0.2% {
+            fill: #650d9c;
+            stroke-width: 0.32751;
+        }
+        50.1% {
+            fill: #650d9c;
+            stroke-width: 0.32751;
+        }
+        100% {
+            fill: #650d9c;
+            stroke-width: 0.32751;
+        }
+         
+    }
+     
+    #path2056 { 
+        animation-name: myanimpath2056;
+        animation-duration: 4s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+      
+    @keyframes myanimpath2056 { 
+        0% {
+            fill: #650d9c;
+        }
+        0.2% {
+            fill: #650d9c;
+        }
+        50.1% {
+            fill: #650d9c;
+        }
+        100% {
+            fill: #650d9c;
+        }
+         
+    }
+     
+    #g2159 { 
+        animation-name: myanimg2159;
+        animation-duration: 4s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+      
+    @keyframes myanimg2159 { 
+        0% {
+        }
+        0% {
+        }
+        0% {
+        }
+        0% {
+            transform: matrix(
+            1.00000,
+            0.00000,
+            0.00000,
+            1.00000,
+            210.02800,
+            -23.28970);
+        }
+        0.2% {
+            transform: matrix(
+            1.00000,
+            0.00000,
+            0.00000,
+            1.00000,
+            -25.06980,
+            33.59060);
+        }
+        50.1% {
+            transform: matrix(
+            1.00000,
+            0.00000,
+            0.00000,
+            1.00000,
+            221.55351,
+            -28.51566);
+        }
+        100% {
+            transform: matrix(
+            1.00000,
+            0.00000,
+            0.00000,
+            1.00000,
+            443.18427,
+            37.07392);
+        }
+         
+    }
+     
+    #path14596 { 
+        animation-name: myanimpath14596;
+        animation-duration: 4s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+      
+    @keyframes myanimpath14596 { 
+        0% {
+            d: path("M 67.9823 180.791 L 103.48 60.1027 L 129.502 144.106 L 142.49 87.3238 L 177.987 179.621 Z");
+        }
+        0.2% {
+            d: path("M 67.9823 180.791 L 103.48 60.1027 L 129.502 144.106 L 142.49 87.3238 L 177.987 179.621 Z");
+        }
+        50.1% {
+            d: path("M 67.9823 180.791 L 103.48 60.1027 L 129.502 144.106 L 142.49 87.3238 L 177.987 179.621 Z");
+        }
+        100% {
+            d: path("M 67.9823 180.791 L 103.48 60.1027 L 129.502 144.106 L 142.49 87.3238 L 177.987 179.621 Z");
+        }
+         
+    }
+     
+    #path13087 { 
+        animation-name: myanimpath13087;
+        animation-duration: 4s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+      
+    @keyframes myanimpath13087 { 
+        0% {
+            fill:  rgb(0, 0, 0);
+            d: path("M 73.274 189.257 L 108.771 68.5693 L 134.794 152.572 L 147.782 95.7904 L 183.279 188.087 Z");
+        }
+        0.2% {
+            fill:  rgb(0, 0, 0);
+            d: path("M 73.274 189.257 L 108.771 68.5693 L 134.794 152.572 L 147.782 95.7904 L 183.279 188.087 Z");
+        }
+        50.1% {
+            fill:  rgb(0, 0, 0);
+            d: path("M 73.274 189.257 L 108.771 68.5693 L 134.794 152.572 L 147.782 95.7904 L 183.279 188.087 Z");
+        }
+        100% {
+            fill:  rgb(0, 0, 0);
+            d: path("M 73.274 189.257 L 108.771 68.5693 L 134.794 152.572 L 147.782 95.7904 L 183.279 188.087 Z");
+        }
+         
+    }
+     
+    #path22800 { 
+        animation-name: myanimpath22800;
+        animation-duration: 4s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+      
+    @keyframes myanimpath22800 { 
+        0% {
+            fill: #b2a2b8;
+            d: path("M 73.274,189.257 211.70446,225.94198 134.794,201.84632 250.71546,216.60042 183.279,189.65851 Z");
+        }
+        0.2% {
+            fill: #3b3040;
+            d: path("M 73.274 189.257 L 211.704 225.942 L 134.794 201.846 L 250.715 216.6 L 183.279 189.659 Z");
+        }
+        50.1% {
+            fill: #9846be;
+            d: path("M 73.274 189.257 L 83.9541 225.942 L 134.794 201.846 L 122.965 216.6 L 183.279 189.659 Z");
+        }
+        100% {
+            fill: #3b3040;
+            d: path("M 73.274,189.257 -35.576541,225.942 134.794,201.846 3.434459,216.6 183.279,189.659 Z");
+        }
+         
+    }
+     
+    #layer1 { 
+        animation-name: myanimlayer1;
+        animation-duration: 4s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+      
+    @keyframes myanimlayer1 { 
+        0% {
+            transform: matrix(
+            1.00000,
+            0.00000,
+            0.00000,
+            1.00000,
+            52.12560,
+            -47.29630);
+        }
+        0.2% {
+            transform: matrix(
+            1.00000,
+            0.00000,
+            0.00000,
+            1.00000,
+            52.12560,
+            -47.29630);
+        }
+        50.1% {
+            transform: matrix(
+            1.00000,
+            0.00000,
+            0.00000,
+            1.00000,
+            52.12560,
+            -47.29630);
+        }
+        100% {
+            transform: matrix(
+            1.00000,
+            0.00000,
+            0.00000,
+            1.00000,
+            52.12560,
+            -47.29630);
+        }
+         
+    }
+     
+    #svg5 { 
+        animation-name: myanimsvg5;
+        animation-duration: 4s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+      
+    @keyframes myanimsvg5 { 
+        0% {
+        }
+        0.2% {
+        }
+        50.1% {
+        }
+        100% {
+        }
+         
+    }
+     </style></svg>
