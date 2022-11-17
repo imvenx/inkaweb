@@ -1,0 +1,165 @@
+<svg width="1194.3153mm" height="1056.876mm" viewBox="0 0 1194.3152 1056.8759" version="1.1" id="svg5" inkscape:version="1.2.1 (9c6d41e, 2022-07-14)" sodipodi:docname="drawing.svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" style="width: 100%; height: 100%;">
+  <sodipodi:namedview id="namedview7" pagecolor="#c8c8c8" bordercolor="#666666" borderopacity="1.0" inkscape:pageshadow="2" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="true" inkscape:zoom="0.11313709" inkscape:cx="2717.9417" inkscape:cy="2532.3261" inkscape:window-width="1331" inkscape:window-height="743" inkscape:window-x="35" inkscape:window-y="0" inkscape:window-maximized="1" inkscape:current-layer="layer1" units="mm" width="1000mm" inkscape:showpageshadow="2" inkscape:deskcolor="#c8c8c8">
+    <inkscape:grid type="xygrid" id="grid378" units="mm" spacingx="9.9999999" spacingy="9.9999999" originx="178.35946" originy="139.90776"></inkscape:grid>
+  </sodipodi:namedview>
+  <defs id="defs2"></defs>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="matrix(1, 0, 0, 1, 178.359, 139.908)" style="transform: matrix(1, 0, 0, 1, 178.359, 139.908);">
+    <rect style="fill: rgb(40, 11, 11); stroke: rgb(101, 161, 62); stroke-width: 144; paint-order: stroke markers; height: 912.876px; width: 1050.32px; x: -72.046px; y: -59.0836px;" id="rect386" width="1050.32" height="912.876" x="-72.046px" y="-59.0836px"></rect>
+    <path id="rect358" style="fill: rgb(40, 11, 11); stroke: rgb(101, 161, 62); stroke-width: 144; paint-order: stroke markers; d: path(&quot;M 635.776 138.296 H 776.444 V 356.548 H 635.776 Z&quot;);" d="M 635.776 138.296 H 776.444 V 356.548 H 635.776 Z" sodipodi:nodetypes="ccccc"></path>
+    <path id="rect360" style="fill: rgb(40, 11, 11); stroke: rgb(101, 161, 62); stroke-width: 144; paint-order: stroke markers; d: path(&quot;M 278.815 604.305 L 645.443 600.765 L 615.151 658.337 H 310.577 Z&quot;);" d="M 84.2142 513.961 L 391.083 620.83 L 392.009 643.9 L 93.9278 719.409 Z" sodipodi:nodetypes="ccccc"></path>
+    <path id="path832" style="fill: rgb(40, 11, 11); fill-opacity: 1; stroke: rgb(101, 161, 62); stroke-width: 144; paint-order: stroke markers; d: path(&quot;M 203.309 201.89 H 343.977 V 315.484 H 203.309 Z&quot;);" d="M 307.346 122.716 H 448.014 V 304.752 H 307.346 Z" sodipodi:nodetypes="ccccc"></path>
+  </g>
+
+<style>  
+    #rect386 { 
+        animation-name: myanimrect386;
+        animation-duration: 1s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+      
+    @keyframes myanimrect386 { 
+        0% {
+            fill: rgb(40, 11, 11);
+            width: 1050.32px;
+            height: 912.876px;
+            x: -72.046px;
+            y: -59.0836px;
+        }
+        50% {
+            fill: rgb(40, 11, 11);
+            width: 1050.32px;
+            height: 912.876px;
+            x: -72.046px;
+            y: -59.0836px;
+        }
+        100% {
+            fill: rgb(40, 11, 11);
+            width: 1050.32px;
+            height: 912.876px;
+            x: -72.046px;
+            y: -59.0836px;
+        }
+         
+    }
+     
+    #rect358 { 
+        animation-name: myanimrect358;
+        animation-duration: 1s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+      
+    @keyframes myanimrect358 { 
+        0% {
+            fill: rgb(40, 11, 11);
+            d: path("M 635.776 138.296 H 776.444 V 356.548 H 635.776 Z");
+        }
+        100% {
+            fill: rgb(40, 11, 11);
+            d: path("M 635.776 138.296 H 776.444 V 356.548 H 635.776 Z");
+        }
+         
+    }
+     
+    #rect360 { 
+        animation-name: myanimrect360;
+        animation-duration: 1s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+      
+    @keyframes myanimrect360 { 
+        0% {
+            fill: #280b0b;
+            d: path("M 310.55525,615.77347 L 614.22472,613.81437 L 615.151,658.337 H 310.577 Z");
+        }
+        50% {
+            fill: #280b0b;
+            d: path("M 231.40587,587.17593 L 692.07265,581.27396 L 615.151,658.337 H 310.577 Z");
+        }
+        100% {
+            fill: rgb(40, 11, 11);
+            d: path("M 310.555 615.773 L 614.225 613.814 L 615.151 658.337 H 310.577 Z");
+        }
+         
+    }
+     
+    #path832 { 
+        animation-name: myanimpath832;
+        animation-duration: 1s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+      
+    @keyframes myanimpath832 { 
+        0% {
+            fill: #280b0b;
+            d: path("M 203.30945,133.44798 H 343.97745 V 315.48437 H 203.30945 Z");
+        }
+        50% {
+            fill: #280b0b;
+            d: path("M 203.309,304.12146 H 343.977 V 315.484 H 203.309 Z");
+        }
+        100% {
+            fill: rgb(40, 11, 11);
+            d: path("M 203.309 133.448 H 343.977 V 315.484 H 203.309 Z");
+        }
+         
+    }
+     
+    #layer1 { 
+        animation-name: myanimlayer1;
+        animation-duration: 1s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+      
+    @keyframes myanimlayer1 { 
+        0% {
+            transform: matrix(
+            1.00000,
+            0.00000,
+            0.00000,
+            1.00000,
+            178.35899,
+            139.90800);
+        }
+        50% {
+            transform: matrix(
+            1.00000,
+            0.00000,
+            0.00000,
+            1.00000,
+            178.35899,
+            139.90800);
+        }
+        100% {
+            transform: matrix(
+            1.00000,
+            0.00000,
+            0.00000,
+            1.00000,
+            178.35899,
+            139.90800);
+        }
+         
+    }
+     
+    #svg5 { 
+        animation-name: myanimsvg5;
+        animation-duration: 1s; 
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+      
+    @keyframes myanimsvg5 { 
+        0% {
+        }
+        50% {
+        }
+        100% {
+        }
+         
+    }
+     </style></svg>
