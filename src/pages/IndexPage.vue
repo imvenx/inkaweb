@@ -1,21 +1,11 @@
 <template>
   <q-page style="padding:2%" id="page">
-    <p>csSvg or Inka (I haven't decided between those two names yet) is a tool that lets you animate SVG
-      with CSS animations and Inkscape. </p>
-    <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg-0.0.1.AppImage"> -->
-    <img decoding="async" loading="lazy" src="../assets/cssvg_preview.svg" style="width:100%; ">
+    <b>csSvg or inka is a tool to animate SVG with CSS animations and Inkscape. </b>
 
-    <a href="/cssvgweb/cssvg-0.0.1.AppImage">
-      Download for linux
-    </a> |
-    <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg%20Setup%200.0.1.exe"> -->
-    <a href="/cssvgweb/cssvg%20Setup%200.0.1.exe" disabled>
-      Download for Windows
-    </a>
-    | <a href="https://github.com/imvenx/cssvg" target="_blank" rel="noopener noreferrer">Repo</a>
-    | <a href="https://discord.gg/F8Wzc5SPjq" target="_blank" rel="noopener noreferrer">Discord</a>
-    | <a href="https://www.youtube.com/channel/UCh30W9QnXS-XZwNuk-twnyg" target="_blank"
-      rel="noopener noreferrer">Youtube</a>
+    <img decoding="async" loading="lazy" src="../assets/cssvg_preview.svg" style="width:100%; ">
+    <p style="color:orange"><b>Warning:</b> This project is under active development and
+      it contains multiple bugs that we are currently fixing. To understand how to use it you
+      can watch tutorials on our youtube channel or join us in discord.</p>
     <hr>
 
 
@@ -75,8 +65,23 @@
     </ul>
     <hr> -->
 
+    <b>Roadmap / To Do list:</b>
+    <ul>
+      <li>Add support to more attributes and elements, like rotation, blur etc that are currently not supported </li>
+      <li>Improve keyframe system, to be able to drag keyframes, edit values, delete, inpsect, etc</li>
+      <li>Improve hierachy system to be able to add attributes or elements directly from the hierarchy</li>
+      <li>Add record button to record changes on svg instead of having to create keyframes each time</li>
+      <li>Add capabilitie to handle and reuse multiple animations inside the same animation</li>
+    </ul>
 
+    <hr />
     <b>News</b>
+    <ul>
+      <li> <b> 23/11/22 </b> </li>
+      <ul>
+        <li>Added file system capabilities to load and save projects directly from the program </li>
+      </ul>
+    </ul>
     <ul>
       <li> <b> 13/11/22 </b> </li>
       <ul>
@@ -137,10 +142,10 @@
   background-blend-mode: color;
 } */
 
-a {
+/* a {
   color: aqua;
   text-decoration: none;
-}
+} */
 
 @media (min-width:1150px) {
   #videos-cont {
