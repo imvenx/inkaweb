@@ -95,6 +95,7 @@
       <li> <b> 23/11/22 </b> </li>
       <ul>
         <li>Added file system capabilities to load and save projects directly from the program </li>
+        <li>Pick file name and path on export</li>
       </ul>
     </ul>
     <ul>
