@@ -1,7 +1,20 @@
 <template>
   <q-page style="padding:2%" id="page">
-    <b>csSvg or inka is a tool to animate SVG with CSS animations and Inkscape. </b>
 
+    <span>csSvg or inka is a tool to animate SVG with CSS animations and Inkscape.
+      <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg-0.0.1.AppImage"> -->
+      <a href="/cssvgweb/cssvg-0.0.1.AppImage">
+        Download for linux
+      </a> |
+      <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg%20Setup%200.0.1.exe"> -->
+      <a href="/cssvgweb/cssvg%20Setup%200.0.1.exe" disabled>
+        Download for Windows
+      </a> |
+      <a href="https://github.com/imvenx/cssvg" target="_blank" rel="noopener noreferrer">Repo</a> |
+      <a href="https://discord.gg/F8Wzc5SPjq" target="_blank" rel="noopener noreferrer">Discord</a> |
+      <a href="https://www.youtube.com/channel/UCh30W9QnXS-XZwNuk-twnyg" target="_blank"
+        rel="noopener noreferrer">Youtube</a>
+    </span>
     <img decoding="async" loading="lazy" src="../assets/cssvg_preview.svg" style="width:100%; ">
     <p style="color:orange"><b>Warning:</b> This project is under active development and
       it contains multiple bugs that we are currently fixing. To understand how to use it you
@@ -187,5 +200,10 @@ img {
 
 .imgCont * {
   max-height: 9em;
+}
+
+a {
+  color: aqua;
+  text-decoration: none;
 }
 </style>
