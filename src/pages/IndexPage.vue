@@ -137,9 +137,6 @@
         one keyframe from another
       </li>
       <li>Blur animation still not implemented</li>
-      <li>If you change the total duration of the animation you need to refresh
-        the application, and probably rewrite all kfs (will be fixed soon)
-      </li>
     </ul>
     <hr>
   </q-page>
