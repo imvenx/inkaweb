@@ -85,7 +85,8 @@
       <li>Improve keyframe system, to be able to drag keyframes, edit values, delete, inpsect, etc</li>
       <li>Improve hierachy system to be able to add attributes or elements directly from the hierarchy</li>
       <li>Add record button to record changes on svg instead of having to create keyframes each time</li>
-      <li>Add capabilitie to handle and reuse multiple animations inside the same animation</li>
+      <li>Add capabilities to handle and reuse multiple animations inside the same animation</li>
+      <li>(Maybe) Add an "inka" profile to inkscape to improve user experience by setting default preferences etc</li>
     </ul>
 
     <hr />
