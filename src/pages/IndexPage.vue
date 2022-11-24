@@ -47,7 +47,7 @@
     <ul>
       <li><b> How can I move a frame along the timeline? </b></li>
       <ul>
-        <li> <b> You can't atm, will be implemented soon</b></li>
+        <li> You can't atm, will be implemented soon</li>
       </ul>
       <li><b> How can I zoom in/out?</b></li>
       <ul>
