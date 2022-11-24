@@ -19,7 +19,12 @@
     <img decoding="async" loading="lazy" src="../assets/cssvg_preview.svg" style="width:100%; ">
     <p style="color:orange"><b>Warning:</b> This project is under active development and
       it contains multiple bugs that we are currently fixing. To understand how to use it you
-      can watch tutorials on our youtube channel or join us in discord.</p>
+      can watch tutorials on our
+      <a href="https://www.youtube.com/channel/UCh30W9QnXS-XZwNuk-twnyg" target="_blank"
+        rel="noopener noreferrer">youtube</a>
+      channel or join us in <a href="https://discord.gg/F8Wzc5SPjq" target="_blank"
+        rel="noopener noreferrer">discord</a>
+    </p>
     <hr>
 
 
@@ -36,6 +41,45 @@
       <img decoding="async" loading="lazy" src="../assets/thumbup.svg">
       <img decoding="async" loading="lazy" src="../assets/weird.svg">
       <!-- <img decoding="async" loading="lazy" src="../assets/moon.svg"> -->
+    </ul>
+    <hr />
+    <b>FAQs</b> (Please watch youtube tutorial for more details)
+    <ul>
+      <li><b> How can I move a frame along the timeline? </b></li>
+      <ul>
+        <li> <b> You can't atm, will be implemented soon</b></li>
+      </ul>
+      <li><b> How can I zoom in/out?</b></li>
+      <ul>
+        <li>focus on the timepicker component (the one with that show the seconds) with the mouse, and ctrl + scroll
+        </li>
+      </ul>
+      <li>
+        <b> when I click on a diamond, it vanishes instead of allowing me to move it to adjust timing. </b>
+      </li>
+      <ul>
+        <li>At the moment clicking on a kf is going to delete it, that is the expected behaviour but is confusing and
+          will be fixed in the next version, probably with a modal to ask you if you want to delete or edit.
+        </li>
+      </ul>
+      <li> <b>
+          Inkscape often asks whether to reset the file, and I'm not sure what to choose, because I have not found
+          out when and why that happens.</b>
+      </li>
+      <ul>
+        <li>
+          This happens because to update inkscape UI what I do is an overwrite and then a "file revert" which means you
+          lose all the changes you did to your svg. It is a complex workaround that is not intended to be used for this
+          purpose so is kinda tricky to explain all the implications, but basically you need to know this:
+          To animate: First select the time you desire, second update the svg, third save svg, fourth create keyframe
+          if you select the time you desire after editing the svg there are two posibilities:
+
+          one: you didn't save the svg so it tell's you that the file is being reverted and you will lose your changes,
+          you can press cancel and then you will update the timeline without losing your changes
+          two: you did save the svg in which case it don't ask you anything, you will lose your changes as the editor
+          goes to that timeline seocnd and refreshes the svg.
+        </li>
+      </ul>
     </ul>
     <hr />
     <b>Inkscape recomended configuration:</b>
