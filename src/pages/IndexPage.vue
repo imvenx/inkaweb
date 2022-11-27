@@ -56,12 +56,10 @@
     </p>
     <hr>
 
-
     <b>Animations created and exported with this tool:</b>
     <ul class="imgCont">
       <!-- <object type="image/svg+xml" data="src/assets/bird.svg" width="250" height="200">
       </object> -->
-
       <img decoding="async" loading="lazy" src="../assets/mountain.svg">
       <img decoding="async" loading="lazy" src="../assets/bird.svg">
       <img decoding="async" loading="lazy" src="../assets/face_wink.svg">
@@ -73,6 +71,26 @@
       <img decoding="async" loading="lazy" src="../assets/smiley3.svg">
       <!-- <img decoding="async" loading="lazy" src="../assets/moon.svg"> -->
     </ul>
+    <hr>
+    <b>How to use this program:</b>
+    <ol>
+      <li>Go to the home view (top left)</li>
+      <li>Create a new project</li>
+      <li>Open it with inkscape (File -> open with inkscape (Inkscape should be your default program to open SVGs,
+        otherwise open tmp/cssvg/temp.svg with inkscape manually))</li>
+      <li>Draw something on inkscape temp.svg file</li>
+      <li>Save on inkscape (this should refresh inka UI to show what you did draw)</li>
+      <li>Create a Keyframe</li>
+      <li>In inka move the time line to another second or milisecond by clicking on the timepicker</li>
+      <li>Convert whatever you drawed to a path if is an object (in inkscape Object -> Object to path)</li>
+      <li>Move, change the color or morph whatever you drawed </li>
+      <li>Save in inkscape</li>
+      <li>Create a new keyframe</li>
+      <li>Now press F1 to play your animation</li>
+      <li>Pres F1 to stop the animation</li>
+      <li>Drag the keyframe with left click to change the time of that keyframe</li>
+      <li>Right click to delete that keyframe</li>
+    </ol>
     <hr />
     <b>Useful advice:</b>
     <ul>
@@ -86,25 +104,26 @@
         of node (if it is an arc keep it as an arc, if you plan to animate a line make it a curve or an arc before,
         etc),
       </li>
+      <li>If you move the timeline with unsaved changes on inkscape, inkscape will ask you if you want to continue
+        reverting the file. You can accept to get the part of the animation that is expected to happen at that point, or
+        you can cancel to conservate the state of your svg, this is useful if you want to duplicate certaion state of
+        the animation since there is no duplicate operation at the moment </li>
     </ul>
     <hr>
+    <b>Inkscape recomended configuration:</b>
+    <ul>
+      <li>Preferences -> Interface -> Default Window Size: Small</li>
+      <li>Preferences -> Interface -> Saving Window size and position: Remember and use last
+        window geometry
+      </li>
+      <li>Preferences -> Input/Output -> Numeric precision: 8</li>
+    </ul>
+    <hr />
     <b>FAQs</b> (Please watch youtube tutorial for more details)
     <ul>
-      <li><b> How can I move a frame along the timeline? </b></li>
-      <ul>
-        <li> You can't atm, will be implemented soon</li>
-      </ul>
       <li><b> How can I zoom in/out?</b></li>
       <ul>
         <li>focus on the timepicker component (the one with that show the seconds) with the mouse, and ctrl + scroll
-        </li>
-      </ul>
-      <li>
-        <b> when I click on a diamond, it vanishes instead of allowing me to move it to adjust timing. </b>
-      </li>
-      <ul>
-        <li>At the moment clicking on a kf is going to delete it, that is the expected behaviour but is confusing and
-          will be fixed in the next version, probably with a modal to ask you if you want to delete or edit.
         </li>
       </ul>
       <li> <b>
@@ -127,15 +146,7 @@
       </ul>
     </ul>
     <hr />
-    <b>Inkscape recomended configuration:</b>
-    <ul>
-      <li>Preferences -> Interface -> Default Window Size: Small</li>
-      <li>Preferences -> Interface -> Saving Window size and position: Remember and use last
-        window geometry
-      </li>
-      <li>Preferences -> Input/Output -> Numeric precision: 8</li>
-    </ul>
-    <hr />
+
     <!-- <b>Videos</b>
     <div id="videos-cont">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/O287AKWyLrY" title="YouTube video player"
