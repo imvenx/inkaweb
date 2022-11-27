@@ -3,15 +3,38 @@
 
     <b>"csSvg" or "inka" </b>is a tool to animate SVG with CSS animations and Inkscape.
 
-    <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg-0.0.1.AppImage"> -->
-    <a href="/cssvgweb/cssvg-0.0.1.AppImage">
-      Download for linux
-    </a> |
-    <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg%20Setup%200.0.1.exe"> -->
-    <a href="/cssvgweb/cssvg%20Setup%200.0.1.exe" disabled title="discontinued for lack of time, 
-    maybe in the future will be retaken">
-      Download for Windows
-    </a>
+
+
+    <div class="q-my-md">
+      <q-expansion-item class="shadow-1 overflow-hidden" style="background-color:brown;" icon="download"
+        label="Download options" header-class="">
+        <q-card>
+          <q-card-section>
+            <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg-0.0.1.AppImage"> -->
+            <a href="/cssvgweb/cssvg-0.0.2.AppImage"> linux 0.0.2 </a>
+            <ul>
+              <li>Add capability to drag keyframes to change the time</li>
+              <li>Delete keyframes now with right click instead of left click </li>
+              <li>Demonstration: <a href="https://www.youtube.com/watch?v=w35GS6fKksE" target="_blank">making smiley
+                  youtube tutorial</a></li>
+            </ul>
+            <hr>
+            <a href="/cssvgweb/cssvg-0.0.1.AppImage"> linux 0.0.1 </a>
+            <ul>
+              First stable version on linux
+            </ul>
+            <hr>
+            <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg%20Setup%200.0.1.exe"> -->
+            <a href="/cssvgweb/cssvg%20Setup%200.0.1.exe" disabled
+              title="discontinued for lack of time, maybe in the future will be retaken"> windows 0.0.00001 </a>
+            <ul>
+              Discontinued at the moment, may be retaken in the future (only download this version if you are brave
+              enough)
+            </ul>
+          </q-card-section>
+        </q-card>
+      </q-expansion-item>
+    </div>
     <!-- <a href="https://github.com/imvenx/cssvg" target="_blank" rel="noopener noreferrer">Repo</a> |
     <a href="https://discord.gg/F8Wzc5SPjq" target="_blank" rel="noopener noreferrer">Discord</a> |
     <a href="https://www.youtube.com/channel/UCh30W9QnXS-XZwNuk-twnyg" target="_blank"
@@ -40,9 +63,25 @@
       <img decoding="async" loading="lazy" src="../assets/dragon.svg">
       <img decoding="async" loading="lazy" src="../assets/thumbup.svg">
       <img decoding="async" loading="lazy" src="../assets/weird.svg">
+      <img decoding="async" loading="lazy" src="../assets/smiley.svg">
+      <img decoding="async" loading="lazy" src="../assets/smiley3.svg">
       <!-- <img decoding="async" loading="lazy" src="../assets/moon.svg"> -->
     </ul>
     <hr />
+    <b>Useful advice:</b>
+    <ul>
+      <li>Set inkscape as your default program to open svg's (if you can't do this the program will not open inkscape
+        and you will need to go to your temporal folder tmp/cssvg/temp.svg and open it with inkscape )</li>
+      <li>Use always paths, instead of circles or rectangles, use object to path inskcape functionality</li>
+      <li>Set strokes to not resize on resize object</li>
+      <li>Hide angle vector points</li>
+      <li>Sometimes if you animate a path it will just jump from one state to another, that is because CSS morphing
+        animation is still not as good as it could be, so to prevent this you need to be carefull to not change the type
+        of node (if it is an arc keep it as an arc, if you plan to animate a line make it a curve or an arc before,
+        etc),
+      </li>
+    </ul>
+    <hr>
     <b>FAQs</b> (Please watch youtube tutorial for more details)
     <ul>
       <li><b> How can I move a frame along the timeline? </b></li>
