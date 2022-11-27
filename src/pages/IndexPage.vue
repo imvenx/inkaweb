@@ -63,6 +63,7 @@
       <img decoding="async" loading="lazy" src="../assets/mountain.svg">
       <img decoding="async" loading="lazy" src="../assets/bird.svg">
       <img decoding="async" loading="lazy" src="../assets/face_wink.svg">
+      <img decoding="async" loading="lazy" src="../assets/witch.svg">
       <img decoding="async" loading="lazy" src="../assets/fish.svg">
       <img decoding="async" loading="lazy" src="../assets/dragon.svg">
       <img decoding="async" loading="lazy" src="../assets/thumbup.svg">
