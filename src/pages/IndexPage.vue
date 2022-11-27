@@ -22,14 +22,20 @@
             <a href="/cssvgweb/cssvg-0.0.1.AppImage"> linux 0.0.1 </a>
             <ul>
               First stable version on linux
+
+              <li> Demonstration: <a href="https://www.youtube.com/watch?v=vPwZxCoeH_0" target="_blank"> first extensive
+                  video tutorial
+                  with voice</a></li>
             </ul>
             <hr>
             <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg%20Setup%200.0.1.exe"> -->
-            <a href="/cssvgweb/cssvg%20Setup%200.0.1.exe" disabled
+            <a href="/cssvgweb/cssvg%20Setup%200.0.1.exe" disabled target="_blank"
               title="discontinued for lack of time, maybe in the future will be retaken"> windows 0.0.00001 </a>
             <ul>
-              Discontinued at the moment, may be retaken in the future (only download this version if you are brave
-              enough)
+              Discontinued at the moment, may be retaken in the future (only download this version if you dare)
+              <li> Demonstration: <a href="https://www.youtube.com/watch?v=f8kHLQNz8zE" target="_blank"> animating in
+                  windows video
+                  tutorial</a></li>
             </ul>
           </q-card-section>
         </q-card>
