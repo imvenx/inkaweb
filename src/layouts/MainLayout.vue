@@ -6,7 +6,7 @@
 
         <img decoding="async" src="../assets/dragon.svg" style="width:7em; margin: -1em">
         <q-toolbar-title>
-          csSvg
+          csSvg/inka
         </q-toolbar-title>
         <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg-0.0.1.AppImage"> -->
         <!-- <a href="/cssvgweb/cssvg-0.0.1.AppImage">

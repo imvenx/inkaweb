@@ -1,17 +1,24 @@
 <template>
   <q-page style="padding:2%" id="page">
-
     <b>"csSvg" or "inka" </b>is a tool to animate SVG with CSS animations and Inkscape.
-
-
-
     <div class="q-my-md">
       <q-expansion-item class="shadow-1 overflow-hidden" style="background-color:brown;" icon="download"
         label="Download options" header-class="">
         <q-card>
           <q-card-section>
+            <a href="/cssvgweb/inka-1.0.0.AppImage"> inka-1.0.0.AppImage (linux) </a>
+            <ul>
+              <li>See attribute keyframe value on hover</li>
+              <li>Fix bug that svg would not refresh on pause/update time and create a new keyframe</li>
+              <li>Refactored a bunch of code to make it more mantainable in the future</li>
+              <li>Added face wink logo on AppImage</li>
+              <li>Changed name from "cssvg" to "inka" in the AppImage</li>
+              <li>Changed version to 1.0.0 just to start using version numbers as they are intended</li>
+              <li>Prevents timepicker of being dragged if it haven't been clicked</li>
+            </ul>
+            <hr>
             <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg-0.0.1.AppImage"> -->
-            <a href="/cssvgweb/cssvg-0.0.2.AppImage"> linux 0.0.2 </a>
+            <a href="/cssvgweb/cssvg-0.0.2.AppImage"> cssvg-0.0.2.AppImage (linux) </a>
             <ul>
               <li>Add capability to drag keyframes to change the time</li>
               <li>Delete keyframes now with right click instead of left click </li>
@@ -19,7 +26,7 @@
                   youtube tutorial</a></li>
             </ul>
             <hr>
-            <a href="/cssvgweb/cssvg-0.0.1.AppImage"> linux 0.0.1 </a>
+            <a href="/cssvgweb/cssvg-0.0.1.AppImage"> cssvg-0.0.1.AppImage (linux) </a>
             <ul>
               First stable version on linux
 
@@ -30,7 +37,7 @@
             <hr>
             <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg%20Setup%200.0.1.exe"> -->
             <a href="/cssvgweb/cssvg%20Setup%200.0.1.exe" disabled target="_blank"
-              title="discontinued for lack of time, maybe in the future will be retaken"> windows 0.0.00001 </a>
+              title="discontinued for lack of time, maybe in the future will be retaken"> cssvg-0.0.1.exe (windows) </a>
             <ul>
               Discontinued at the moment, may be retaken in the future (only download this version if you dare)
               <li> Demonstration: <a href="https://www.youtube.com/watch?v=f8kHLQNz8zE" target="_blank"> animating in
