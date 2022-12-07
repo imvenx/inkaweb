@@ -6,8 +6,19 @@
         label="Download options" header-class="">
         <q-card>
           <q-card-section>
+            <a href="/cssvgweb/inka-1.1.0.AppImage"> inka-1.1.0.AppImage (linux) </a>
+            <ul>
+              <li>Fix bug on drag key frame when kf viewer was scrolled would not drag properly</li>
+              <li>Fix bug on puase and play again would start animation from zero instead of current time</li>
+              <li>Add support for fill-opacity attribute</li>
+              <li>Fix bug on start or refresh app would not remember y scroll on animator</li>
+              <li>knonw bug (also on older versions): change duration is glitchy</li>
+              <li>knonw bug (also on older versions): drag keyframes sometimes is glitchy</li>
+            </ul>
+            <hr>
             <a href="/cssvgweb/inka-1.0.0.AppImage"> inka-1.0.0.AppImage (linux) </a>
             <ul>
+              <li>Known bug: on drag keyframe while scrolled in kf editor it won't drag properly</li>
               <li>See attribute keyframe value on hover</li>
               <li>Fix bug that svg would not refresh on pause/update time and create a new keyframe</li>
               <li>Refactored a bunch of code to make it more mantainable in the future</li>
