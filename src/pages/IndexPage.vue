@@ -76,8 +76,7 @@
 
     <b>Animations created and exported with this tool:</b>
     <ul class="imgCont">
-      <!-- <object type="image/svg+xml" data="src/assets/bird.svg" width="250" height="200">
-      </object> -->
+      <img decoding="async" loading="lazy" src="../assets/bird.svg">
       <img decoding="async" loading="lazy" src="../assets/mountain.svg">
       <img decoding="async" loading="lazy" src="../assets/merry_consume.svg">
       <img decoding="async" loading="lazy" src="../assets/fox_ice.svg">
