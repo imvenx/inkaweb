@@ -6,6 +6,18 @@
         label="Download options" header-class="">
         <q-card>
           <q-card-section>
+            <a href="/cssvgweb/inka-1.2.0.AppImage"> inka-1.2.0.AppImage (linux) </a> 18/12/2022
+            <ul>
+              <li>Add support to animate rotation and translation only on "g" elements</li>
+              <li>Add support to animate stroke, stroke-width, stroke-dasharray and stroke-linecap</li>
+              <li>Fix bug that reseted project to last saved state</li>
+              <li>Remember animation time on refresh or restart project</li>
+              <li>Improved performance on drag kfs</li>
+              <li>Improve animation viewer, now only shows what is inside the main layer</li>
+              <li>Demonstration: <a href="https://www.youtube.com/watch?v=lA5omC4sO2U" target="_blank">video</a></li>
+            </ul>
+
+            <hr>
             <a href="/cssvgweb/inka-1.1.0.AppImage"> inka-1.1.0.AppImage (linux) </a>
             <ul>
               <li>Fix bug on drag key frame when kf viewer was scrolled would not drag properly</li>
@@ -76,6 +88,7 @@
 
     <b>Animations created and exported with this tool:</b>
     <ul class="imgCont">
+      <img decoding="async" loading="lazy" src="../assets/bird_stroke.svg" style="background: wheat;">
       <img decoding="async" loading="lazy" src="../assets/bird.svg">
       <img decoding="async" loading="lazy" src="../assets/mountain.svg">
       <img decoding="async" loading="lazy" src="../assets/merry_consume.svg">
