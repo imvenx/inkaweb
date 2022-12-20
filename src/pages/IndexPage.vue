@@ -88,21 +88,23 @@
 
     <b>Animations created and exported with this tool:</b>
     <ul class="imgCont">
-      <img decoding="async" loading="lazy" src="../assets/bird_stroke.svg" style="background: wheat;">
-      <img decoding="async" loading="lazy" src="../assets/bird.svg">
-      <img decoding="async" loading="lazy" src="../assets/mountain.svg">
-      <img decoding="async" loading="lazy" src="../assets/merry_consume.svg">
+      <img decoding="async" loading="lazy" src="../assets/inka12.svg" style="background: burlywood; ">
+      <img decoding="async" loading="lazy" src="../assets/viracocha.svg">
+      <img decoding="async" loading="lazy" src="../assets/smiley.svg">
       <img decoding="async" loading="lazy" src="../assets/fox_ice.svg">
+      <img decoding="async" loading="lazy" src="../assets/smiley3.svg">
+      <img decoding="async" loading="lazy" src="../assets/mountain.svg">
+      <img decoding="async" loading="lazy" src="../assets/bird.svg">
       <img decoding="async" loading="lazy" src="../assets/inka1_1.svg" style="background:burlywood">
+      <img decoding="async" loading="lazy" src="../assets/witch.svg">
       <img decoding="async" loading="lazy" src="../assets/inka3.svg">
       <img decoding="async" loading="lazy" src="../assets/face_wink.svg">
-      <img decoding="async" loading="lazy" src="../assets/witch.svg">
+      <img decoding="async" loading="lazy" src="../assets/merry_consume.svg">
       <img decoding="async" loading="lazy" src="../assets/fish.svg">
       <img decoding="async" loading="lazy" src="../assets/dragon.svg">
       <img decoding="async" loading="lazy" src="../assets/thumbup.svg">
+      <img decoding="async" loading="lazy" src="../assets/bird_stroke.svg" style="background: skyblue;">
       <img decoding="async" loading="lazy" src="../assets/weird.svg">
-      <img decoding="async" loading="lazy" src="../assets/smiley.svg">
-      <img decoding="async" loading="lazy" src="../assets/smiley3.svg">
       <!-- <img decoding="async" loading="lazy" src="../assets/moon.svg"> -->
     </ul>
     <hr>
