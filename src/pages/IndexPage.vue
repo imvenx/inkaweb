@@ -6,6 +6,17 @@
         label="Download options" header-class="">
         <q-card>
           <q-card-section>
+            <a href="/cssvgweb/inka-1.2.1.AppImage"> inka-1.2.1.AppImage (linux) </a> 29/12/2022
+            <ul>
+              <li>Added "open SVG with inkscape" button that asks and remembers inkscape path, and "open SVG with
+                default
+                program"</li>
+              <li>Complete redesign of the UI, now in dark mode, and refactored so in the future is easier to add custom
+                themes, improved spacing, etc</li>
+              <li>Fixed bug on start it would not load correctly last project</li>
+              <li>Add "_inka" to saved projects</li>
+            </ul>
+            <hr>
             <a href="/cssvgweb/inka-1.2.0.AppImage"> inka-1.2.0.AppImage (linux) </a> 18/12/2022
             <ul>
               <li>Add support to animate rotation and translation only on "g" elements</li>
@@ -16,7 +27,6 @@
               <li>Improve animation viewer, now only shows what is inside the main layer</li>
               <li>Demonstration: <a href="https://www.youtube.com/watch?v=lA5omC4sO2U" target="_blank">video</a></li>
             </ul>
-
             <hr>
             <a href="/cssvgweb/inka-1.1.0.AppImage"> inka-1.1.0.AppImage (linux) </a>
             <ul>
@@ -75,7 +85,7 @@
     <a href="https://discord.gg/F8Wzc5SPjq" target="_blank" rel="noopener noreferrer">Discord</a> |
     <a href="https://www.youtube.com/channel/UCh30W9QnXS-XZwNuk-twnyg" target="_blank"
       rel="noopener noreferrer">Youtube</a> -->
-    <img decoding="async" loading="lazy" src="../assets/cssvg_preview.svg" style="width:100%; ">
+    <img decoding="async" loading="lazy" src="../assets/inka_preview.png" style="width:100%; ">
     <p style="color:orange"><b>Warning:</b> This project is under active development and
       it contains multiple bugs that we are currently fixing. To understand how to use it you
       can watch tutorials on our
@@ -268,9 +278,12 @@
 
     <b>Knwon limitations, bugs, etc:</b>
     <ul>
-      <li>Rotation behaves herratically</li>
+      <li>Rotation and translation can't be in the same group, need a specific group to track each transform</li>
+      <li>Rotations limited by inkscape degrees (max 180, min -180), so if you need custom rotation, has to be added
+        manually</li>
+      <li>Resize, skew transforms not supported</li>
       <li>d attribute won't properly morph if you change the type of nodes from
-        one keyframe from another
+        one keyframe from another, so is necesary to convert all nodes to curves (shown in video tutorials)
       </li>
       <li>Blur animation still not implemented</li>
     </ul>
