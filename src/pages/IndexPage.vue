@@ -15,6 +15,8 @@
                 themes, improved spacing, etc</li>
               <li>Fixed bug on start it would not load correctly last project</li>
               <li>Add "_inka" to saved projects</li>
+              <li>Demonstration: <a href="https://www.youtube.com/watch?v=I_WHppKb0r8&feature=youtu.be"
+                  target="_blank">video</a></li>
             </ul>
             <hr>
             <a href="/cssvgweb/inka-1.2.0.AppImage"> inka-1.2.0.AppImage (linux) </a> 18/12/2022
