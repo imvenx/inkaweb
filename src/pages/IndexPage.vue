@@ -14,7 +14,7 @@
               <li>Complete redesign of the UI, now in dark mode, and refactored so in the future is easier to add custom
                 themes, improved spacing, etc</li>
               <li>Fixed bug on start it would not load correctly last project</li>
-              <li>Add "_inka" to saved projects</li>
+              <li>Add "_inka" to saved inka projects</li>
             </ul>
             <hr>
             <a href="/cssvgweb/inka-1.2.0.AppImage"> inka-1.2.0.AppImage (linux) </a> 18/12/2022
