@@ -6,6 +6,38 @@
         label="Download options" header-class="">
         <q-card>
           <q-card-section>
+
+            <span class="text-h4"> inka 1.3 Beta </span> <span class="text-h6">
+              9/feb/2023</span>
+            <br>
+            <br>
+            <div class="text-h5">Windows</div>
+            <ul>
+              <a href="/cssvgweb/inka-1.3.0.AppImage"> inka-1.3.0.exe Beta </a>
+              <div>
+                <b><u> IMPORTANT!</u> </b> It requires this experimental version of inkscape to work
+                <a download="" role="menuitem"
+                  href="https://gitlab.com/inkscape/inkscape/-/jobs/3709519237/artifacts/download?file_type=archive"
+                  rel="nofollow" target="_self" class="dropdown-item"><!----> <!----> <!---->
+                  inkscape:windows:x64:archive
+                </a>
+              </div>
+            </ul>
+
+            <div class="text-h5">Linux</div>
+            <ul>
+              <a href="/cssvgweb/inka-1.3.0.AppImage"> inka-1.3.0.AppImage Beta </a>
+              <div>
+                <b><u> IMPORTANT!</u> </b> It requires this experimental version of inkscape to work
+                <a download="" role="menuitem"
+                  href="https://gitlab.com/inkscape/inkscape/-/jobs/3709519231/artifacts/download?file_type=archive"
+                  rel="nofollow" target="_self" class="dropdown-item"><!----> <!----> <!---->
+                  appimage:linux:archive
+                </a>
+              </div>
+            </ul>
+
+            <hr />
             <a href="/cssvgweb/inka-1.2.1.AppImage"> inka-1.2.1.AppImage (linux) </a> 29/12/2022
             <ul>
               <li>Added "open SVG with inkscape" button that asks and remembers inkscape path, and "open SVG with
@@ -100,6 +132,8 @@
 
     <b>Animations created and exported with this tool:</b>
     <ul class="imgCont">
+      <img decoding="async" loading="lazy" src="../assets/inka_now_for_windows2.svg.svg"
+        style="background: burlywood; ">
       <img decoding="async" loading="lazy" src="../assets/inka12.svg" style="background: burlywood; ">
       <img decoding="async" loading="lazy" src="../assets/viracocha.svg">
       <img decoding="async" loading="lazy" src="../assets/smiley.svg">
@@ -120,44 +154,6 @@
       <!-- <img decoding="async" loading="lazy" src="../assets/moon.svg"> -->
     </ul>
     <hr>
-    <b>How to use this program:</b>
-    <ol>
-      <li>Go to the home view (top left)</li>
-      <li>Create a new project</li>
-      <li>Open it with inkscape (File -> open with inkscape (Inkscape should be your default program to open SVGs,
-        otherwise open tmp/cssvg/temp.svg with inkscape manually))</li>
-      <li>Draw something on inkscape temp.svg file</li>
-      <li>Save on inkscape (this should refresh inka UI to show what you did draw)</li>
-      <li>Create a Keyframe</li>
-      <li>In inka move the time line to another second or milisecond by clicking on the timepicker</li>
-      <li>Convert whatever you drawed to a path if is an object (in inkscape Object -> Object to path)</li>
-      <li>Move, change the color or morph whatever you drawed </li>
-      <li>Save in inkscape</li>
-      <li>Create a new keyframe</li>
-      <li>Now press F1 to play your animation</li>
-      <li>Pres F1 to stop the animation</li>
-      <li>Drag the keyframe with left click to change the time of that keyframe</li>
-      <li>Right click to delete that keyframe</li>
-    </ol>
-    <hr />
-    <b>Useful advice:</b>
-    <ul>
-      <li>Set inkscape as your default program to open svg's (if you can't do this the program will not open inkscape
-        and you will need to go to your temporal folder tmp/cssvg/temp.svg and open it with inkscape )</li>
-      <li>Use always paths, instead of circles or rectangles, use object to path inskcape functionality</li>
-      <li>Set strokes to not resize on resize object</li>
-      <li>Hide angle vector points</li>
-      <li>Sometimes if you animate a path it will just jump from one state to another, that is because CSS morphing
-        animation is still not as good as it could be, so to prevent this you need to be carefull to not change the type
-        of node (if it is an arc keep it as an arc, if you plan to animate a line make it a curve or an arc before,
-        etc),
-      </li>
-      <li>If you move the timeline with unsaved changes on inkscape, inkscape will ask you if you want to continue
-        reverting the file. You can accept to get the part of the animation that is expected to happen at that point, or
-        you can cancel to conservate the state of your svg, this is useful if you want to duplicate certaion state of
-        the animation since there is no duplicate operation at the moment </li>
-    </ul>
-    <hr>
     <b>Inkscape recomended configuration:</b>
     <ul>
       <li>Preferences -> Interface -> Default Window Size: Small</li>
@@ -165,33 +161,6 @@
         window geometry
       </li>
       <li>Preferences -> Input/Output -> Numeric precision: 8</li>
-    </ul>
-    <hr />
-    <b>FAQs</b> (Please watch youtube tutorial for more details)
-    <ul>
-      <li><b> How can I zoom in/out?</b></li>
-      <ul>
-        <li>focus on the timepicker component (the one with that show the seconds) with the mouse, and ctrl + scroll
-        </li>
-      </ul>
-      <li> <b>
-          Inkscape often asks whether to reset the file, and I'm not sure what to choose, because I have not found
-          out when and why that happens.</b>
-      </li>
-      <ul>
-        <li>
-          This happens because to update inkscape UI what I do is an overwrite and then a "file revert" which means you
-          lose all the changes you did to your svg. It is a complex workaround that is not intended to be used for this
-          purpose so is kinda tricky to explain all the implications, but basically you need to know this:
-          To animate: First select the time you desire, second update the svg, third save svg, fourth create keyframe
-          if you select the time you desire after editing the svg there are two posibilities:
-
-          one: you didn't save the svg so it tell's you that the file is being reverted and you will lose your changes,
-          you can press cancel and then you will update the timeline without losing your changes
-          two: you did save the svg in which case it don't ask you anything, you will lose your changes as the editor
-          goes to that timeline seocnd and refreshes the svg.
-        </li>
-      </ul>
     </ul>
     <hr />
 
@@ -229,16 +198,28 @@
 
     <b>Roadmap / To Do list:</b>
     <ul>
-      <li>Add support to more attributes and elements, like rotation, blur etc that are currently not supported </li>
       <li>Improve keyframe system, to be able to drag keyframes, edit values, delete, inpsect, etc</li>
       <li>Improve hierachy system to be able to add attributes or elements directly from the hierarchy</li>
-      <li>Add record button to record changes on svg instead of having to create keyframes each time</li>
       <li>Add capabilities to handle and reuse multiple animations inside the same animation</li>
       <li>(Maybe) Add an "inka" profile to inkscape to improve user experience by setting default preferences etc</li>
+      <li>Make standard humanoid skeleton to make animations reusable, then add funcitonality download/upload reusable
+        template animations</li>
     </ul>
 
     <hr />
     <b>News</b>
+    <ul>
+      <li> <b> 09/feb/2022 </b> </li>
+      <ul>
+        <li>New major version release candiadate with a lot of new features on inkscape and inka side</li>
+        <li>Add windows support</li>
+        <li>Add record functionality</li>
+        <li>Improved UI and UX</li>
+        <li>Add remember kfs on inkscape</li>
+        <li>Add option to enable/disable refresh inksape</li>
+        <li>Add option to reset inkcape path</li>
+      </ul>
+    </ul>
     <ul>
       <li> <b> 23/11/22 </b> </li>
       <ul>
