@@ -13,7 +13,7 @@
             <br>
             <div class="text-h5">Windows</div>
             <ul>
-              <a href="/cssvgweb/inka-1.3.0.AppImage"> inka-1.3.0.exe Beta </a>
+              <a href="/cssvgweb/inka-1.3.0.exe"> inka-1.3.0.exe Beta </a>
               <div>
                 <b><u> IMPORTANT!</u> </b> It requires this experimental version of inkscape to work
                 <a download="" role="menuitem"
