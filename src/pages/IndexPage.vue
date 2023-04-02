@@ -17,7 +17,7 @@
               <div>
                 <b><u> IMPORTANT!</u> </b> It requires this experimental version of inkscape to work
                 <a download="" role="menuitem"
-                  href="https://gitlab.com/inkscape/inkscape/-/jobs/3709519237/artifacts/download?file_type=archive"
+                  href="https://gitlab.com/inkscape/inkscape/-/jobs/artifacts/master/download?job=inkscape%3Awindows%3Ax86"
                   rel="nofollow" target="_self" class="dropdown-item"><!----> <!----> <!---->
                   inkscape:windows:x64:archive
                 </a>
@@ -131,16 +131,14 @@
       can watch tutorials on our
       <a href="https://www.youtube.com/channel/UCh30W9QnXS-XZwNuk-twnyg" target="_blank"
         rel="noopener noreferrer">youtube</a>
-      channel or join us in <a href="https://discord.gg/F8Wzc5SPjq" target="_blank"
-        rel="noopener noreferrer">discord</a>
+      channel or join us in <a href="https://discord.gg/F8Wzc5SPjq" target="_blank" rel="noopener noreferrer">discord</a>
     </p>
     <hr>
 
     <b>Animations created and exported with this tool:</b>
     <ul class="imgCont">
       <img decoding="async" loading="lazy" src="../assets/llama_walk2.svg" style="background: burlywood; ">
-      <img decoding="async" loading="lazy" src="../assets/inka_now_for_windows2.svg.svg"
-        style="background: burlywood; ">
+      <img decoding="async" loading="lazy" src="../assets/inka_now_for_windows2.svg.svg" style="background: burlywood; ">
       <img decoding="async" loading="lazy" src="../assets/inka12.svg" style="background: burlywood; ">
       <img decoding="async" loading="lazy" src="../assets/viracocha.svg">
       <img decoding="async" loading="lazy" src="../assets/smiley.svg">
