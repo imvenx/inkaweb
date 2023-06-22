@@ -214,7 +214,7 @@
     <hr />
     <b>News</b>
     <ul>
-      <li> <b> 09/feb/2022 </b> </li>
+      <li> <b> 09/feb/2023 </b> </li>
       <ul>
         <li>New major version release candiadate with a lot of new features on inkscape and inka side</li>
         <li>Add windows support</li>
