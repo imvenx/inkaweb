@@ -26,8 +26,6 @@
               </div>
             </ul>
 
-
-
             <div class="text-h5">Linux</div>
             <ul>
               <a href="/cssvgweb/inka-1.3.0.AppImage"> inka-1.3.0.AppImage Beta </a>
