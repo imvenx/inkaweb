@@ -1,6 +1,6 @@
 <template>
   <q-page style="padding:2%" id="page">
-    <b>"csSvg" or "inka" </b>is a tool to animate SVG with CSS animations and Inkscape.
+    <b> inka </b>is a tool to animate SVG with CSS animations and Inkscape.
     <div class="q-my-md">
       <q-expansion-item class="shadow-1 overflow-hidden" style="background-color:brown;" icon="download"
         label="Download options" header-class="">
@@ -17,7 +17,7 @@
               <div>
                 <b><u> IMPORTANT!</u> </b> It requires this experimental version of inkscape to work
                 <a download="" role="menuitem"
-                  href="https://gitlab.com/inkscape/inkscape/-/jobs/artifacts/master/download?job=inkscape%3Awindows%3Ax86"
+                  href="https://gitlab.com/inkscape/inkscape/-/jobs/4535528983/artifacts/download?file_type=archive"
                   rel="nofollow" target="_self" class="dropdown-item"><!----> <!----> <!---->
                   inkscape:windows:x64:archive
                 </a>
