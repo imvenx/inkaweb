@@ -1,26 +1,20 @@
 <template>
   <q-page style="padding:2%" id="page">
-    <b> inka </b>is a tool to animate SVG with CSS animations and Inkscape.
+    A tool to animate SVG with CSS animations and Inkscape.
     <div class="q-my-md">
       <q-expansion-item class="shadow-1 overflow-hidden" style="background-color:brown;" icon="download"
         label="Download options" header-class="">
         <q-card>
           <q-card-section>
 
-            <span class="text-h4"> inka 1.3 Beta </span> <span class="text-h6">
-              9/feb/2023</span>
+            <span class="text-h4"> inka 1.3.1 Beta </span> <span class="text-h6">
+              2023-11-18</span>
             <br>
             <br>
             <div class="text-h5">Windows</div>
             <ul>
-              <a href="/cssvgweb/inka-1.3.0.exe"> inka-1.3.0.exe Beta </a>
+              <a href="/cssvgweb/inka-1.3.1.exe"> inka-1.3.1.exe Beta </a>
               <div>
-                <b><u> IMPORTANT!</u> </b> It requires this experimental version of inkscape to work
-                <a download="" role="menuitem"
-                  href="https://gitlab.com/inkscape/inkscape/-/jobs/4535528983/artifacts/download?file_type=archive"
-                  rel="nofollow" target="_self" class="dropdown-item"><!----> <!----> <!---->
-                  inkscape:windows:x64:archive
-                </a>
                 <li>Demonstration: <a href="https://www.youtube.com/watch?v=vUn5EqMDkik" target="_blank"> youtube
                     tutorial</a></li>
               </div>
@@ -28,19 +22,27 @@
 
             <div class="text-h5">Linux</div>
             <ul>
-              <a href="/cssvgweb/inka-1.3.0.AppImage"> inka-1.3.0.AppImage Beta </a>
+              <a href="/cssvgweb/inka-1.3.1.AppImage"> inka-1.3.1.AppImage Beta </a>
               <div>
-                <b><u> IMPORTANT!</u> </b> It requires this experimental version of inkscape to work
-                <a download="" role="menuitem"
-                  href="https://gitlab.com/inkscape/inkscape/-/jobs/3709519231/artifacts/download?file_type=archive"
-                  rel="nofollow" target="_self" class="dropdown-item"><!----> <!----> <!---->
-                  appimage:linux:archive
-                </a>
                 <li>Demonstration: <a href="https://www.youtube.com/watch?v=vUn5EqMDkik" target="_blank"> youtube
                     tutorial</a></li>
               </div>
             </ul>
-
+            <hr />
+            <a href="/cssvgweb/inka-1.3.0.AppImage"> inka-1.3.0 <small>beta</small> AppImage (linux) </a> 9/feb/2023 <br />
+            <a href="/cssvgweb/inka-1.3.0.exe"> inka-1.3.0 <small>beta</small> exe (windows)</a>
+            <ul>
+              <div>
+                <li>Demonstration: <a href="https://www.youtube.com/watch?v=vUn5EqMDkik" target="_blank"> youtube
+                    tutorial</a></li>
+              </div>
+            </ul>
+            <ul>
+              <div>
+                <li>Demonstration: <a href="https://www.youtube.com/watch?v=vUn5EqMDkik" target="_blank"> youtube
+                    tutorial</a></li>
+              </div>
+            </ul>
             <hr />
             <a href="/cssvgweb/inka-1.2.1.AppImage"> inka-1.2.1.AppImage (linux) </a> 29/12/2022
             <ul>
@@ -123,7 +125,7 @@
     <a href="https://discord.gg/F8Wzc5SPjq" target="_blank" rel="noopener noreferrer">Discord</a> |
     <a href="https://www.youtube.com/channel/UCh30W9QnXS-XZwNuk-twnyg" target="_blank"
       rel="noopener noreferrer">Youtube</a> -->
-    <img decoding="async" loading="lazy" src="../assets/inka-preview-2.png" style="width:100%; ">
+    <!--<img decoding="async" loading="lazy" src="../assets/inka-preview-2.png" style="width:100%; ">-->
     <p style="color:orange"><b>Warning:</b> This project is under active development and
       it contains multiple bugs that we are currently fixing. To understand how to use it you
       can watch tutorials on our
@@ -141,7 +143,6 @@
       <img decoding="async" loading="lazy" src="../assets/viracocha.svg">
       <img decoding="async" loading="lazy" src="../assets/smiley.svg">
       <img decoding="async" loading="lazy" src="../assets/fox_ice.svg">
-      <img decoding="async" loading="lazy" src="../assets/smiley3.svg">
       <img decoding="async" loading="lazy" src="../assets/mountain.svg">
       <img decoding="async" loading="lazy" src="../assets/bird.svg">
       <img decoding="async" loading="lazy" src="../assets/inka1_1.svg" style="background:burlywood">
@@ -150,22 +151,12 @@
       <img decoding="async" loading="lazy" src="../assets/face_wink.svg">
       <img decoding="async" loading="lazy" src="../assets/merry_consume.svg">
       <img decoding="async" loading="lazy" src="../assets/fish.svg">
-      <img decoding="async" loading="lazy" src="../assets/dragon.svg">
       <img decoding="async" loading="lazy" src="../assets/thumbup.svg">
       <img decoding="async" loading="lazy" src="../assets/bird_stroke.svg" style="background: skyblue;">
       <img decoding="async" loading="lazy" src="../assets/weird.svg">
       <!-- <img decoding="async" loading="lazy" src="../assets/moon.svg"> -->
     </ul>
     <hr>
-    <b>Inkscape recomended configuration:</b>
-    <ul>
-      <li>Preferences -> Interface -> Default Window Size: Small</li>
-      <li>Preferences -> Interface -> Saving Window size and position: Remember and use last
-        window geometry
-      </li>
-      <li>Preferences -> Input/Output -> Numeric precision: 8</li>
-    </ul>
-    <hr />
 
     <!-- <b>Videos</b>
     <div id="videos-cont">
@@ -283,7 +274,7 @@
 
 <style scoped>
 /* #page {
-  background-image: url("../assets/dragon.svg");
+  background-image: url("../assets/inka-anim.svg");
   background-position-y: 45vh;
   background-size: contain;
   background-repeat: no-repeat;
@@ -317,10 +308,8 @@
 hr,
 img {
   margin: 1em auto;
-  border-width: .4em;
-  border-color: brown;
-  box-shadow: 0 0 10px 5px black;
-  border-style: outset;
+  border-width: .1em;
+  border-color: #fff;
 }
 
 .imgCont {
@@ -338,8 +327,10 @@ img {
 }
 
 a {
-  color: aqua;
+  color: rgb(20, 182, 182);
   text-decoration: none;
-  font-weight: 1000;
+}
+a:hover {
+  color: rgb(255, 255, 255);
 }
 </style>

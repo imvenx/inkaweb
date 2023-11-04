@@ -1,13 +1,10 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated style="background-color:brown">
+    <q-header elevated style="background-color:white">
       <q-toolbar>
         <!-- <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" /> -->
 
-        <img decoding="async" src="../assets/dragon.svg" style="width:7em; margin: -1em">
-        <q-toolbar-title>
-          inka
-        </q-toolbar-title>
+        <img decoding="async" src="../assets/inka_anim.svg" style="width:7em; margin: -1em">
         <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg-0.0.1.AppImage"> -->
         <!-- <a href="/cssvgweb/cssvg-0.0.1.AppImage">
             Download for linux
@@ -23,7 +20,7 @@
 
       </q-toolbar>
     </q-header>
-    <!-- 
+    <!--
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
         <q-item-label header>
@@ -53,9 +50,12 @@ import { ref } from 'vue';
 
 <style scoped>
 a {
-  color: white;
-  font-weight: 1000;
+  color:#800000;
+  font-weight: normal;
   margin: 0 2%;
   text-decoration: none;
+}
+a:hover {
+  color:#333;
 }
 </style>
