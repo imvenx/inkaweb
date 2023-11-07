@@ -8,12 +8,12 @@
         <q-toolbar-title>
           inka
         </q-toolbar-title>
-        <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg-0.0.1.AppImage"> -->
-        <!-- <a href="/cssvgweb/cssvg-0.0.1.AppImage">
+        <!-- <a href="https://github.com/imvenx/inkaweb/raw/master/public/cssvg-0.0.1.AppImage"> -->
+        <!-- <a href="/inkaweb/cssvg-0.0.1.AppImage">
             Download for linux
           </a> -->
-        <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg%20Setup%200.0.1.exe"> -->
-        <!-- <a href="/cssvgweb/cssvg%20Setup%200.0.1.exe" disabled>
+        <!-- <a href="https://github.com/imvenx/inkaweb/raw/master/public/cssvg%20Setup%200.0.1.exe"> -->
+        <!-- <a href="/inkaweb/cssvg%20Setup%200.0.1.exe" disabled>
             Download for Windows
           </a> -->
         <a href="https://github.com/imvenx/cssvg" target="_blank" rel="noopener noreferrer">Repo</a>
@@ -23,7 +23,7 @@
 
       </q-toolbar>
     </q-header>
-    <!-- 
+    <!--
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
         <q-item-label header>

@@ -13,7 +13,7 @@
             <br>
             <div class="text-h5">Windows</div>
             <ul>
-              <a href="/cssvgweb/inka-1.3.0.exe"> inka-1.3.0.exe Beta </a>
+              <a href="/inkaweb/inka-1.3.0.exe"> inka-1.3.0.exe Beta </a>
               <div>
                 <b><u> IMPORTANT!</u> </b> It requires this experimental version of inkscape to work
                 <a download="" role="menuitem"
@@ -28,7 +28,7 @@
 
             <div class="text-h5">Linux</div>
             <ul>
-              <a href="/cssvgweb/inka-1.3.0.AppImage"> inka-1.3.0.AppImage Beta </a>
+              <a href="/inkaweb/inka-1.3.0.AppImage"> inka-1.3.0.AppImage Beta </a>
               <div>
                 <b><u> IMPORTANT!</u> </b> It requires this experimental version of inkscape to work
                 <a download="" role="menuitem"
@@ -42,7 +42,7 @@
             </ul>
 
             <hr />
-            <a href="/cssvgweb/inka-1.2.1.AppImage"> inka-1.2.1.AppImage (linux) </a> 29/12/2022
+            <a href="/inkaweb/inka-1.2.1.AppImage"> inka-1.2.1.AppImage (linux) </a> 29/12/2022
             <ul>
               <li>Added "open SVG with inkscape" button that asks and remembers inkscape path, and "open SVG with
                 default
@@ -55,7 +55,7 @@
                   target="_blank">video</a></li>
             </ul>
             <hr>
-            <a href="/cssvgweb/inka-1.2.0.AppImage"> inka-1.2.0.AppImage (linux) </a> 18/12/2022
+            <a href="/inkaweb/inka-1.2.0.AppImage"> inka-1.2.0.AppImage (linux) </a> 18/12/2022
             <ul>
               <li>Add support to animate rotation and translation only on "g" elements</li>
               <li>Add support to animate stroke, stroke-width, stroke-dasharray and stroke-linecap</li>
@@ -66,7 +66,7 @@
               <li>Demonstration: <a href="https://www.youtube.com/watch?v=lA5omC4sO2U" target="_blank">video</a></li>
             </ul>
             <hr>
-            <a href="/cssvgweb/inka-1.1.0.AppImage"> inka-1.1.0.AppImage (linux) </a>
+            <a href="/inkaweb/inka-1.1.0.AppImage"> inka-1.1.0.AppImage (linux) </a>
             <ul>
               <li>Fix bug on drag key frame when kf viewer was scrolled would not drag properly</li>
               <li>Fix bug on puase and play again would start animation from zero instead of current time</li>
@@ -76,7 +76,7 @@
               <li>knonw bug (also on older versions): drag keyframes sometimes is glitchy</li>
             </ul>
             <hr>
-            <a href="/cssvgweb/inka-1.0.0.AppImage"> inka-1.0.0.AppImage (linux) </a>
+            <a href="/inkaweb/inka-1.0.0.AppImage"> inka-1.0.0.AppImage (linux) </a>
             <ul>
               <li>Known bug: on drag keyframe while scrolled in kf editor it won't drag properly</li>
               <li>See attribute keyframe value on hover</li>
@@ -88,8 +88,8 @@
               <li>Prevents timepicker of being dragged if it haven't been clicked</li>
             </ul>
             <hr>
-            <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg-0.0.1.AppImage"> -->
-            <a href="/cssvgweb/cssvg-0.0.2.AppImage"> cssvg-0.0.2.AppImage (linux) </a>
+            <!-- <a href="https://github.com/imvenx/inkaweb/raw/master/public/cssvg-0.0.1.AppImage"> -->
+            <a href="/inkaweb/cssvg-0.0.2.AppImage"> cssvg-0.0.2.AppImage (linux) </a>
             <ul>
               <li>Add capability to drag keyframes to change the time</li>
               <li>Delete keyframes now with right click instead of left click </li>
@@ -97,7 +97,7 @@
                   youtube tutorial</a></li>
             </ul>
             <hr>
-            <a href="/cssvgweb/cssvg-0.0.1.AppImage"> cssvg-0.0.1.AppImage (linux) </a>
+            <a href="/inkaweb/cssvg-0.0.1.AppImage"> cssvg-0.0.1.AppImage (linux) </a>
             <ul>
               First stable version on linux
 
@@ -106,8 +106,8 @@
                   with voice</a></li>
             </ul>
             <hr>
-            <!-- <a href="https://github.com/imvenx/cssvgweb/raw/master/public/cssvg%20Setup%200.0.1.exe"> -->
-            <a href="/cssvgweb/cssvg%20Setup%200.0.1.exe" disabled target="_blank"
+            <!-- <a href="https://github.com/imvenx/inkaweb/raw/master/public/cssvg%20Setup%200.0.1.exe"> -->
+            <a href="/inkaweb/cssvg%20Setup%200.0.1.exe" disabled target="_blank"
               title="discontinued for lack of time, maybe in the future will be retaken"> cssvg-0.0.1.exe (windows) </a>
             <ul>
               Discontinued at the moment, may be retaken in the future (only download this version if you dare)

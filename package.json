@@ -2,7 +2,7 @@
   "name": "cssvweb",
   "version": "0.0.1",
   "description": "Animate SVG with CSS and Inkscape",
-  "productName": "cssvgweb",
+  "productName": "inka",
   "author": "imvenx@proton.me",
   "private": true,
   "scripts": {
