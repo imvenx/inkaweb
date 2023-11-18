@@ -1,4 +1,4 @@
-# cssvgweb
+# inkaweb
 
 Animate SVG with CSS and Inkscape
 
