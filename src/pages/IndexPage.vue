@@ -22,6 +22,8 @@
 
     <b>Animations created and exported with this tool:</b>
     <ul class="imgCont">
+      <img decoding="async" loading="lazy" src="../assets/mouse.svg" style="background: burlywood; ">
+      <img decoding="async" loading="lazy" src="../assets/joystick.svg" style="background: burlywood; ">
       <img decoding="async" loading="lazy" src="../assets/llama_walk2.svg" style="background: burlywood; ">
       <img decoding="async" loading="lazy" src="../assets/inka_now_for_windows2.svg.svg" style="background: burlywood; ">
       <img decoding="async" loading="lazy" src="../assets/inka12.svg" style="background: burlywood; ">
