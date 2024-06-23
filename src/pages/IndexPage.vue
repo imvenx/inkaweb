@@ -11,8 +11,8 @@
     <a href="https://www.youtube.com/channel/UCh30W9QnXS-XZwNuk-twnyg" target="_blank"
       rel="noopener noreferrer">Youtube</a> -->
     <img decoding="async" loading="lazy" src="../assets/inka-preview-2.png" style="width:100%; ">
-    <p style="color:orange"><b>Warning:</b> This project is under active development and
-      it contains multiple bugs that we are currently fixing. To understand how to use it you
+    <p style="color:orange"><b>Warning:</b> This project is <b style="color: red;">NOT </b> under active development and
+      it contains multiple bugs. To understand how to use it you
       can watch tutorials on our
       <a href="https://www.youtube.com/channel/UCh30W9QnXS-XZwNuk-twnyg" target="_blank"
         rel="noopener noreferrer">youtube</a>
